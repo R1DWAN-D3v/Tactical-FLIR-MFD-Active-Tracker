@@ -1,7 +1,8 @@
 # Tactical-FLIR-MFD-Optical-Flow-Tracker
 A real-time military Multi-Function Display (MFD) and Forward-Looking Infrared (FLIR) HUD simulation powered by a hybrid Lucas-Kanade Optical Flow + Thermal Centroid Tracking Engine. Designed to track high-speed, maneuvering targets through extreme contrast shifts without freezing or dropping locks.
 
-<img width="1672" height="941" alt="image_2026-08-22_113710671" src="https://github.com/user-attachments/assets/c593cad3-df3a-492f-a4e7-e7a29b26307c" />
+<img width="1774" height="887" alt="image_2026-08-22_114530583" src="https://github.com/user-attachments/assets/736c235c-ff1f-4ebe-ae38-f9001f57b92e" />
+
 
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
