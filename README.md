@@ -39,6 +39,8 @@ T	Toggle Mode	Switches sensor pipeline between IR-GRN and IR-B&W
 P	Toggle Polarity	Swaps signal polarity between WHT (White-Hot) & BLK (Black-Hot)
 Z	Cycle Zoom	Steps digital zoom through Z1.0, Z2.0, and Z4.0
 Q / Esc	Exit	Terminates video capture stream and closes interface window
+
+```
 🚀 Installation & Setup
 Prerequisites
 Python 3.8 or higher installed on your system.
@@ -48,15 +50,11 @@ A working web camera or video capture device.
 Step-by-Step Instructions
 Clone the Repository
 
-Bash
-git clone [https://github.com/your-username/tactical-flir-mfd-tracker.git](https://github.com/your-username/tactical-flir-mfd-tracker.git)
-cd tactical-flir-mfd-tracker
-Create a Virtual Environment
-
-Bash
-python -m venv venv
 # On Windows:
-venv\Scripts\activate
+pip install opencv-python numpy
+pip install opencv-python opencv-contrib-python Pillow numpy
+Run the .Py file in cmd
+
 # On Linux / macOS:
 source venv/bin/activate
 Install Dependencies
@@ -67,6 +65,8 @@ Run the Application
 
 Bash
 python mfd_flir_system.py
+
+
 ⚙️ Technical Architecture
 Plaintext
 [ Camera Feed ] ──► [ Digital Zoom Crop ] ──► [ CLAHE Contrast Enhancement ]
